@@ -1,0 +1,16 @@
+PODS:
+  - LilithProgressHUD (0.1.0)
+
+DEPENDENCIES:
+  - LilithProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  LilithProgressHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LilithProgressHUD: 7746b6d30e73b61809c1f28245fa3c2dd6ae32e0
+
+PODFILE CHECKSUM: 4cf4805e5d8a9e674d54cf36ae1f8766415cc218
+
+COCOAPODS: 1.0.1

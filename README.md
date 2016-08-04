@@ -5,11 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/LilithProgressHUD.svg?style=flat)](http://cocoapods.org/pods/LilithProgressHUD)
 [![Platform](https://img.shields.io/cocoapods/p/LilithProgressHUD.svg?style=flat)](http://cocoapods.org/pods/LilithProgressHUD)
 
-## Example
+A beautiful, lightweight and elegant progress hud for iOS.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+![LilithProgressHUD Image](https://s31.postimg.org/ule3c45or/Screenshot.png)
 
 ## Installation
 
@@ -20,9 +18,29 @@ it, simply add the following line to your Podfile:
 pod "LilithProgressHUD"
 ```
 
-## Author
+## Usage
 
-joshuaarnold, josharnold997@gmail.com
+It's easy as pie.
+
+```swift
+//Import LilithProgressHUD
+import LilithProgressHUD
+
+//Show the HUD
+LilithProgressHUD.show()
+
+... //Do something
+
+//Hide the HUD
+LilithProgressHUD.hide()
+```
+
+Or if you want to be more specific...
+
+```swift
+//Show the HUD on a specific view
+LilithProgressHUD.showOnView(view)
+```
 
 ## License
 
