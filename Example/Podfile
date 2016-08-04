@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LilithProgressHUD_Example' do
+  pod 'LilithProgressHUD', :path => '../'
+
+  target 'LilithProgressHUD_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
