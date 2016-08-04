@@ -13,13 +13,15 @@ public class LilithProgressHUD {
     
     /** Show the hud. */
     public class func show() {
-        if let window = UIApplication.sharedApplication().delegate?.window {
-            showOnView(window!)
+        if let window = UIApplication.sharedApplication().keyWindow {
+            showOnView(window)
         }
     }
     
     /** Show the hud added to a view. */
     public class func showOnView(view:UIView) {
+        
+        HUD.sharedInstance.superview?.userInteractionEnabled = true
         HUD.sharedInstance.removeFromSuperview()
         
         view.userInteractionEnabled = false
