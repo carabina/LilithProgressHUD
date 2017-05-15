@@ -16,7 +16,7 @@ class HUD: UIActivityIndicatorView {
     
     /** Init the HUD with default values.  */
     private init() {
-        let frame = UIScreen.mainScreen().bounds
+        let frame = UIScreen.main.bounds
         super.init(frame: CGRect(x: (frame.width/2)-35, y: (frame.height/2)-35, width: 70, height: 70))
         backgroundColor = UIColor(white: 0.1, alpha: 0.5)
         layer.cornerRadius = 5
